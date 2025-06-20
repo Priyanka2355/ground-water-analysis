@@ -56,7 +56,7 @@ jobs:
             docker run -d \
               --restart=unless-stopped \
               --name priyanka-proj \
-              -p 8085:3838 \
+              -p 6582:3838 \
               ${{ secrets.DOCKER_USERNAME }}/ground-water:v1
           '
 
